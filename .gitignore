@@ -1,0 +1,42 @@
+# Obsidian workspace files (layout, sidebar state, etc.)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian community plugin cache
+.obsidian/plugins/**/node_modules/
+.obsidian/plugins/**/dist/
+.obsidian/plugins/**/.cache/
+.obsidian/plugins/**/yarn.lock
+.obsidian/plugins/**/package-lock.json
+
+# Optional: Ignore all .obsidian folder (if you want clean sync, only markdown)
+# Uncomment the next line to ignore all Obsidian config
+#.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Swap/temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Logs or outputs you might generate
+logs/
+build/
+out/
+
+# Ignore compiled driver artifacts (if you store any .c/.ko here)
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+
+# Backup files
+*.old
+*.orig
