@@ -9,6 +9,10 @@ Pages and links are not categorized properly, which shall be done later.
 
 [[Learning Path]]
 
+### Miscellaneous
+- [[printk]]
+- 
+
 
 ---
 

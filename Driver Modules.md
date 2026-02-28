@@ -163,3 +163,20 @@ Goodbye from Kernel!
 ### Directory Structure after module created
 
 ![[hello_module_directory_structure.png]]
+
+> [!ERROR] What happens if ...
+> #### If you comment or remove MODULE_LICENSE
+> The module will not be built and `make` will throw an error
+> ```bash
+> make -C /lib/modules/6.12.62+rpt-rpi-2712/build M=/home/hexavik/hello_module modules
+make[1]: Entering directory '/usr/src/linux-headers-6.12.62+rpt-rpi-2712'
+  CC [M]  /home/hexavik/hello_module/hello.o
+  MODPOST /home/hexavik/hello_module/Module.symvers
+ERROR: modpost: missing MODULE_LICENSE() in /home/hexavik/hello_module/hello.o
+make[3]: *** [/usr/src/linux-headers-6.12.62+rpt-common-rpi/scripts/Makefile.modpost:145: /home/hexavik/hello_module/Module.symvers] Error 1
+make[2]: *** [/usr/src/linux-headers-6.12.62+rpt-common-rpi/Makefile:1922: modpost] Error 2
+make[1]: *** [/usr/src/linux-headers-6.12.62+rpt-common-rpi/Makefile:236: __sub-make] Error 2
+make[1]: Leaving directory '/usr/src/linux-headers-6.12.62+rpt-rpi-2712'
+make: *** [Makefile:4: all] Error 2
+> ```
+
