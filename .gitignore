@@ -1,34 +1,60 @@
-# Obsidian workspace files (layout, sidebar state, etc.)
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Obsidian - Local Workspace State
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Personal workspace/layout state
 .obsidian/workspace.json
+.obsidian/workspaces.json
 .obsidian/workspace-mobile.json
+.obsidian/workspace-tablet.json
 
-# Obsidian community plugin cache
-.obsidian/plugins/**/node_modules/
-.obsidian/plugins/**/dist/
-.obsidian/plugins/**/.cache/
-.obsidian/plugins/**/yarn.lock
-.obsidian/plugins/**/package-lock.json
+# Cache and transient UI state
+.obsidian/cache/
+.obsidian/graph.json
 
-# Optional: Ignore all .obsidian folder (if you want clean sync, only markdown)
-# Uncomment the next line to ignore all Obsidian config
-#.obsidian/
+# Obsidian trash
+.trash/
 
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
+*~
 
-# Swap/temp files
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Editor / IDE
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.vscode/
+
+# Vim swap files
 *.swp
 *.swo
-*.tmp
-*.bak
 
-# Logs or outputs you might generate
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Temporary / Backup Files
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Logs / Build Outputs
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 logs/
 build/
 out/
 
-# Ignore compiled driver artifacts (if you store any .c/.ko here)
+*.log
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Linux Kernel / Embedded Build Artifacts
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 *.o
 *.ko
 *.mod
@@ -37,6 +63,12 @@ out/
 *.order
 *.cmd
 
-# Backup files
-*.old
-*.orig
+Module.symvers
+modules.order
+
+# Generic binaries
+*.a
+*.so
+*.elf
+*.bin
+*.hex
