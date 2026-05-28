@@ -5,5 +5,10 @@
   "catppuccin-heading-settings@@ctp-h5": "var(--ctp-lavender)",
   "catppuccin-heading-settings@@ctp-h2": "var(--ctp-yellow)",
   "catppuccin-heading-settings@@ctp-h4": "var(--ctp-blue)",
-  "catppuccin-heading-settings@@ctp-h6": "var(--ctp-rosewater)"
+  "catppuccin-heading-settings@@ctp-h6": "var(--ctp-rosewater)",
+  "Appearance@@bg@@dark": "#24283B",
+  "Appearance@@bg_dark@@dark": "#1F2335",
+  "Appearance@@bg_highlight@@dark": "#292E42",
+  "Appearance@@bg_highlight_dark@@dark": "#1F2335",
+  "Appearance@@bg_dark2@@dark": "#1B1E2D"
 }

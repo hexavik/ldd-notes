@@ -5,3 +5,7 @@ Not being a stream-oriented device, a network interface isn't easily mapped to a
 > [!QUOTE] In short...
 > Network devices, such as Ethernet and Wi-Fi adapters, transmit and receive packets. Network drivers must handle packet transmission and reception through functions like `ndo_start_xmit()` for sending packets and interrupt handling for receiving packets.
 
+- No `/dev` file
+- Works via network stack
+- Uses `net_devices` structure
+- Packet-based communication

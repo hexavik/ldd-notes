@@ -4,3 +4,8 @@ Block devices are accessed by filesystem nodes in the */dev* directory. A block 
 > [!QUOTE] In short...
 > Block devices, such as hard drives and USB storage, operate by reading and writing data in blocks. Block drivers enable random access to data, and they interface with the Linux filesystem and I/O subsystem.
 
+> [!Example] Examples of Block Driver
+> - Hard disk
+> - SD card
+> - eMMC
+

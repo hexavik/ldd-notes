@@ -23,7 +23,7 @@ A device driver is software that enables communication between the operating sys
 
 ### Loadable Modules
 
-Each piece of code that can be added to the kernel at runtime is called a *module*. 
+Each piece of code that can be added to the kernel at runtime is called a [[Kernel Modules|module]].
 
 The Linux kernel offers support for quite a few different types (or classes) of modules, including, but not limited to, device drivers. Each module is made up of object code (not linked into a complex executable) that can be dynamically linked to the running kernel by the *insmod* program and can be unlinked by the *rmmod* program.
 
@@ -32,4 +32,9 @@ The Linux kernel offers support for quite a few different types (or classes) of 
 - [[Character Devices]]
 - [[Block Devices]]
 - [[Network Interfaces]]
+
+[[Platform vs PCI vs USB Drivers]]
+[[file_operations struct]]
+[[Major and Minor Numbers]]
+[[copy_to_user vs copy-from_user]]
 

@@ -1,3 +1,5 @@
+`printk` is controlled by `/proc/sys/kernel/printk`.
+
 ## Where exactly `printk` output goes?
 
 It doesn't write to a standard terminal or a simple text file like a user-space application would. Instead, we are sending messages to the **Kernel Log Buffer**.
